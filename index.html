@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div id="feed">
+        <section class="page-logo">
+            <img src="./src/images/logo.png" alt="an illustration that looks like a balloon and trees growing around a mountain">
+        </section>
+        <div class="job-section">
+            <p class="open-roles text-3xl font-bold underline">Open Roles Today</p>
+            <div class="number-of-roles-bg">
+                <p>50</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="pagination">
+        <p class="pagination-item">Prev</p>
+        <div class="first-page">
+            <p class="pagination-item next">1</p>
+        </div>
+        
+        <p class="pagination-item">2</p>
+        <p class="pagination-item">3</p>
+        <p class="pagination-item">...</p>
+        <p class="pagination-item">10</p>
+        <p class="pagination-item next">Next</p>
+    </div>
+    <div class="spinner"></div>
+
+    <script src="src/app.js"></script>
+</body>
+</html>

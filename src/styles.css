@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-size: 62.2%;
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    background: #222;
+}
+
+.page-logo {
+    margin: 50px 0 30px 50px;
+}
+
+.job-section {
+    display: flex;
+    gap: 1.0rem;
+    margin-bottom: 40px;
+}
+
+.open-roles {
+    color: #888;
+    margin-left: 50px;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.number-of-roles-bg {
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #343434;
+
+}
+
+.number-of-roles-bg p {
+    color: #888;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.job-item {
+    margin-left: 50px;
+    display: flex;
+    gap: 15rem;
+}
+
+.job-details {
+    display: block;
+    gap: 10rem;
+    margin-bottom: 20px;
+}
+
+.job-detail-title {
+    margin-bottom: 25px;
+    color: #7E7E7E;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.job-detail-subtitle {
+    color: #ECECEC;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.job-detail-description-label {
+    color: #CBCBCB;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.job-description-bg {
+    padding: 24px;
+    border-radius: 16px;
+    background: #131313;
+    margin-bottom: 30px;
+}
+
+.description-section {
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.job-description-bg p {
+    color: #858585;
+
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.separator {
+    margin-bottom: 30px;
+}
+
+.job-subtitle-section {
+    display: flex;
+    gap: 1.0rem;
+}
+
+.apply-link {
+    margin-top: 25px;
+}
+
+.apply-now-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-bg {
+    /* display: flex; */
+    padding: 0px 16px;
+    border-radius: 8px;
+    background: #1B1B1B;
+    width: 141px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+
+.btn-bg:hover {
+    background: #F7F7F7;
+
+}
+
+.btn-text:hover {
+    color: #1B1B1B;
+}
+
+.btn-text {
+    color: #F7F7F7;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 23px;
+}
+
+.text-content {
+    width: 250px;
+}
+
+.pagination {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    align-self: stretch;
+    margin-bottom: 30px;
+}
+
+.pagination-item {
+    color: #4A4A4A;
+    text-align: center;
+
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.next {
+    color: #F7F7F7;
+}
+
+.first-page {
+    padding: 4px 8px;
+    border-radius: 2px;
+    background: #343434;
+    color: #F7F7F7;
+}
