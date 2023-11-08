@@ -1,8 +1,5 @@
-// const { data } = require("cheerio/lib/api/attributes")
-
 const feedDisplay = document.querySelector('#feed')
 
-// 'http://localhost:9000/jobs'
 
 fetch('http://localhost:9000')
     .then(res => res.json())
@@ -14,7 +11,7 @@ fetch('http://localhost:9000')
 
             const splittedCompanyName = job.title.toLowerCase().split('at')
             const companyName = splittedCompanyName[splittedCompanyName.length - 1]
-            // console.log(companyName[companyName.length - 1])
+    
 
 
             const datePosted = job.datePosted.split('-')
